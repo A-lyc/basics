@@ -13,7 +13,7 @@ npm run build
 
 ---
 ####  内置安装vue
-axios   vuex    vue-router
+axios  vuex  vue-router  scroll  swiper
 
 ---
 ####  封装组件
