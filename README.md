@@ -29,7 +29,8 @@ this.$axios.get("网址").then(res => {console.log(res)})
 scss
 
 ---
-###  框架使用了Vant UI
-使用见官方文档，每个页面单独引入使用的插件，官网：https://youzan.github.io/vant/#/
+###  框架使用了ElementUI-见min.js
+使用见官方文档，每个页面单独引入使用的插件，官网：https://element.eleme.cn/
+使用的时候需要在min.js中引入，可以全部引入，可以使用到那个引用那个，css需要单独引入一下，组件内可以直接使用
 
 
