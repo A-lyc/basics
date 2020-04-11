@@ -21,8 +21,10 @@ swiper(轮播) scroll(滚动) toast(提示)
 
 ---
 ####  axios:两种方式使用
-this.$axios.get("网址").then(res => {console.log(res)})
-通过引入的方式import{ 名称 } from "@/network/home"......
+1：this.$axios.get("网址").then(res => {console.log(res)})
+async在异步操作await同步执行let $net = await this.$axios.get("网址")
+
+2：通过引入的方式import{ 名称 } from "@/network/home"......
 
 ---
 ####  css可使用scss编写 
